@@ -20,7 +20,7 @@ body {
 
 .header {
     background-color: #1F2937;
-    padding: 16px 160px;
+    padding: 0 160px;
 }
 
 .nav-bar {
@@ -98,7 +98,7 @@ img {
 .information {
     display: flex;
     flex-direction: column;
-    padding: 16px 160px;
+    padding: 0 160px;
     align-items: center;
 }
 
@@ -123,4 +123,27 @@ img {
     height: 150px;
     border: 5px solid #3882F6;
     border-radius: 20px;
+}
+
+/* Quote section styling */
+.quote {
+    background-color: #E5E7EB;
+    padding: 120px 160px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    
 }
