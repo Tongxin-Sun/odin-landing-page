@@ -156,11 +156,11 @@ img {
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
-    color: white;
+    color: #E5E7EB;
 }
 
 .button > .signup-button {
-    border: 1px solid white;
+    border: 1px solid #E5E7EB;
     border-radius: 5px;
 }
 
@@ -170,4 +170,14 @@ img {
 
 .signup-intro {
     font-weight: 100;
+}
+
+/* Footer section styling */
+.footer  {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB;
+    height: 80px;
+    align-items: center;
 }
