@@ -135,7 +135,7 @@ img {
 /* Quote section styling */
 .quote {
     background-color: #E5E7EB;
-    padding: 120px 160px;
+    padding: 120px 5%;
     display: flex;
     flex-direction: column;
     align-items:center;
