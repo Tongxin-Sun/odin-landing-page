@@ -20,24 +20,27 @@ body {
 
 .header {
     background-color: #1F2937;
-    padding: 0 160px;
+    padding: 0 5%;
 }
 
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    padding-top: 24px;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    padding: 24px 0;
 }
 
 ul {
     display: flex;
     list-style-type: none;
     gap: 32px;
+    flex-wrap: wrap;
 }
 
 ul li {
@@ -50,7 +53,6 @@ ul li {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 120px 0;
-    height: 500px;
     gap: 48px;
 }
 
@@ -67,6 +69,7 @@ ul li {
     height: 100%;
     display: flex;
     justify-content: end;
+    max-height: 300px;
 }
 
 .title {
@@ -84,6 +87,7 @@ img {
     width: 100%;
     height: auto;
     object-fit: cover;
+    min-width: 300px;
 }
 
 .signup-button {
