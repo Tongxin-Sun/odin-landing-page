@@ -157,13 +157,15 @@ img {
 
 /* Signup section styling */
 .signup {
-    margin: 120px 160px;
+    margin: 120px 5%;
     background-color: #3882F6;
     padding: 32px 80px;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
     color: #E5E7EB;
+    gap: 24px;
+    flex-wrap: wrap;
 }
 
 .button > .signup-button {
